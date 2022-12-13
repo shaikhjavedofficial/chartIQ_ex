@@ -1,0 +1,42 @@
+# Make sure to ignore node_modules
+node_modules
+
+# Ignore the library as an unzipped folder
+chartiq/js/*
+chartiq/**/**
+chartiq/examples/**
+
+# And the ChartIQ library in tarball format
+chartiq-chartiq-*.tgz
+chartiq-*.*.*.tgz
+
+# Ignore built files
+dist
+
+# Ignore error screenshots
+tests/errorShots
+
+#Ignore any workspace files
+*.project
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*~
+
+#Ignore stx folder
+stx
+
+#Ignore allure reports
+allure-report
+allure-results
+
+# Ignore Components compiled folders
+
+react-components/index.js
+react-components/Chart/
+react-components/Advanced/
+
+react-components/ActiveTrader/
+react-components/CrossSection/
+
+react-components/node_modules/
